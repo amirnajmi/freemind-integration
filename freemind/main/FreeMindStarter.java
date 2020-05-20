@@ -83,7 +83,7 @@ public class FreeMindStarter {
 		// FreeMind.main(args, defaultPreferences, userPreferences,
 		// starter.getUserPreferencesFile(defaultPreferences));
 		try {
-			Class mainClass = Class.forName("freemind.main.FreeMind");
+			Class mainClass = Class.forName("freemind.main.FreeMind1");
 			Method mainMethod = mainClass.getMethod("main", new Class[] {
 					String[].class, Properties.class, Properties.class,
 					File.class });
